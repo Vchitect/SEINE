@@ -1,7 +1,7 @@
 # SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction
 ### [Project Page](https://vchitect.github.io/SEINE-project/) | [Paper](https://arxiv.org/abs/2309.15103)
 
-
+<img src="seine.gif" width="800">
 
 ```bibtex
 @article{chen2023seine,
