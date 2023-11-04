@@ -1,8 +1,14 @@
-# SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction
-### [Project Page](https://vchitect.github.io/SEINE-project/) | [Paper](https://arxiv.org/abs/2310.20700)
+# SEINE
+This repository is the official implementation of [SEINE](https://arxiv.org/abs/2310.20700).
+
+**[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
+
+[Arxiv Report](https://arxiv.org/abs/2310.20700) | [Project Page]([https://animatediff.github.io/](https://vchitect.github.io/SEINE-project/)
 
 <img src="seine.gif" width="800">
 
+
+## BibTeX
 ```bibtex
 @article{chen2023seine,
 title={SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction},
