@@ -1,0 +1,28 @@
+#path config:
+ckpt: "pretrained/seine.pt"
+pretrained_model_path: "pretrained/stable-diffusion-v1-4/"
+input_path: "input/transition/1"
+save_path: "./results/transition/"
+
+# model config: 
+model: UNet
+num_frames: 16
+#image_size: [320, 512]
+image_size: [512, 512]
+
+# model speedup
+use_fp16: True
+enable_xformers_memory_efficient_attention: True
+
+# sample config:
+seed: 0
+run_time: 13
+cfg_scale: 8.0
+sample_method: 'ddpm'
+num_sampling_steps: 250
+text_prompt: ['smooth transition']
+additional_prompt: "smooth transition."
+negative_prompt: ""
+do_classifier_free_guidance: True
+mask_type: "onelast1"
+use_mask: True
