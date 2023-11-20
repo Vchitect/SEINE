@@ -123,4 +123,4 @@ The code is built upon [diffusers](https://github.com/huggingface/diffusers) and
 
 
 ## License
-The code is licensed under Apache-2.0, model weights are fully open for academic research and also allow **free** commercial usage. To apply for a commercial license, please contact us by our [email](vchitect@pjlab.org.cn).
+The code is licensed under Apache-2.0, model weights are fully open for academic research and also allow **free** commercial usage. To apply for a commercial license, please contact vchitect@pjlab.org.cn.
