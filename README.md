@@ -1,7 +1,9 @@
 # SEINE
 This repository is the official implementation of [SEINE](https://arxiv.org/abs/2310.20700).
 
-**SEINE** is a video diffusion model and is part of the video generation system [Vchitect](http://vchitect.intern-ai.org.cn/). You can also check our Text-to-Video (T2V) framework [LaVie](https://github.com/Vchitect/LaVie).
+**SEINE** is a video diffusion model and is part of the video generation system [Vchitect](http://vchitect.intern-ai.org.cn/). 
+
+You can also check our Text-to-Video (T2V) framework [LaVie](https://github.com/Vchitect/LaVie).
 
 **[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
 
