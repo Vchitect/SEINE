@@ -120,7 +120,6 @@ year={2023}
 }
 ```
 
-## BibTex
 ```bibtex
 @article{wang2023lavie,
   title={LAVIE: High-Quality Video Generation with Cascaded Latent Diffusion Models},
