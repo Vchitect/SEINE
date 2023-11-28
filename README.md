@@ -7,7 +7,7 @@ You can also check our Text-to-Video (T2V) framework [LaVie](https://github.com/
 **[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)
-[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://vchitect.github.io/SEINE-project/)
+[![Project Page](https://img.shields.io/badge/SEINE-Website-green)](https://vchitect.github.io/SEINE-project/)
 [![Replicate](https://replicate.com/lucataco/seine/badge)](https://replicate.com/lucataco/seine) 
 
 <img src="https://github.com/Vchitect/SEINE/blob/main/seine.gif?raw=true" width="800">
