@@ -1,14 +1,16 @@
 # SEINE
-This repository is the official implementation of [SEINE](https://arxiv.org/abs/2310.20700).
+[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)
+[![Project Page](https://img.shields.io/badge/SEINE-Website-green)](https://vchitect.github.io/SEINE-project/)
+[![Replicate](https://replicate.com/lucataco/seine/badge)](https://replicate.com/lucataco/seine) 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVchitect%2FSEINE&count_bg=%23F59352&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
+This repository is the official implementation of [SEINE](https://arxiv.org/abs/2310.20700):
+
+**[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
 
 **SEINE** is a video diffusion model and is part of the video generation system [Vchitect](http://vchitect.intern-ai.org.cn/). 
 You can also check our Text-to-Video (T2V) framework [LaVie](https://github.com/Vchitect/LaVie).
 
-**[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)
-[![Project Page](https://img.shields.io/badge/SEINE-Website-green)](https://vchitect.github.io/SEINE-project/)
-[![Replicate](https://replicate.com/lucataco/seine/badge)](https://replicate.com/lucataco/seine) 
 
 <img src="https://github.com/Vchitect/SEINE/blob/main/seine.gif?raw=true" width="800">
 
