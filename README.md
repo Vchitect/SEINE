@@ -3,6 +3,7 @@
 [![Project Page](https://img.shields.io/badge/SEINE-Website-green)](https://vchitect.github.io/SEINE-project/)
 [![Replicate](https://replicate.com/lucataco/seine/badge)](https://replicate.com/lucataco/seine) 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVchitect%2FSEINE&count_bg=%23F59352&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
+
 This repository is the official implementation of [SEINE](https://arxiv.org/abs/2310.20700):
 
 **[SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction](https://arxiv.org/abs/2310.20700)**
