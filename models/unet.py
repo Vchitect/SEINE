@@ -689,33 +689,3 @@ class UNet3DConditionModel(ModelMixin, ConfigMixin):
             model.load_state_dict(state_dict)
 
         return model
-    
-if __name__ == '__main__':
-    import torch
-    # from xformers.ops import MemoryEfficientAttentionFlashAttentionOp
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-
-    # pretrained_model_path = "/mnt/petrelfs/maxin/work/pretrained/stable-diffusion-2-1-base/" # p cluster
-    pretrained_model_path = "/mnt/petrelfs/share_data/zhanglingjun/stable-diffusion-v1-4/" # p cluster
-    unet = UNet3DConditionModel.from_pretrained_2d(pretrained_model_path, subfolder="unet").to(device)
-    # unet.enable_xformers_memory_efficient_attention(attention_op=MemoryEfficientAttentionFlashAttentionOp)
-    unet.enable_xformers_memory_efficient_attention()
-    unet.enable_gradient_checkpointing()
-
-    unet.train()
-
-    use_image_num = 5
-    noisy_latents = torch.randn((2, 4, 16 + use_image_num, 32, 32)).to(device)
-    bsz = noisy_latents.shape[0]
-    timesteps = torch.randint(0, 1000, (bsz,)).to(device)
-    timesteps = timesteps.long()
-    encoder_hidden_states = torch.randn((bsz, 1 + use_image_num, 77, 768)).to(device)
-    # class_labels = torch.randn((bsz, )).to(device)
-    
-
-    model_pred = unet(sample=noisy_latents, timestep=timesteps, 
-                      encoder_hidden_states=encoder_hidden_states, 
-                      class_labels=None,
-                      use_image_num=use_image_num).sample
-    print(model_pred.shape)
