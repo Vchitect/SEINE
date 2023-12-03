@@ -73,8 +73,8 @@ The generated video will be saved in ```./results/transition```.
 ### I2V Results
 <table class="center">
 <tr>
-  <td style="text-align:center;"><b>Input Image</b></td>
-  <td style="text-align:center;" colspan="1"><b>Output Video</b></td>
+  <td style="text-align:center;width: 50%" colspan="1"><b>Input Image</b></td>
+  <td style="text-align:center;width: 50%" colspan="1"><b>Output Video</b></td>
 </tr>
 <tr>
   <td><img src="https://github.com/Vchitect/SEINE-project/blob/main/static/image-animation/more_results/Close-up_essence_is_poured_from_bottleKodak_Vision.png?raw=true"></td>
@@ -97,8 +97,8 @@ The generated video will be saved in ```./results/transition```.
 ### Transition Results
 <table>
 <tr>
-  <td style="text-align:center;width: 67%" colspan="2"><b>Input Images</b></td>
-  <td style="text-align:center;" ><b>Output Video</b></td>
+  <td style="text-align:center;width: 66%" colspan="2"><b>Input Images</b></td>
+  <td style="text-align:center;width: 33%" colspan="1"><b>Output Video</b></td>
 </tr>
 <tr>
   <td><img src="https://vchitect.github.io/SEINE-project/static/diverse/reference-scene/1-Close-up%20shot%20of%20a%20blooming%20cherry%20tree,%20realism-1.png" ></td>
