@@ -82,7 +82,7 @@ The generated video will be saved in ```./results/transition```.
 </tr>
 
 <tr>
-  <td><img src="input/i2v/The_picture_shows_the_beauty_of_the_sea_.jpg"></td>
+  <td><img src="input/i2v/The_picture_shows_the_beauty_of_the_sea_and_at_the_same.png"></td>
   <td><img src="examples/The picture shows the beauty of the sea and at the sam,slow motion_0000_11301.gif"></td>
 </tr>
 
