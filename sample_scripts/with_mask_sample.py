@@ -88,8 +88,8 @@ def get_input(args):
             return video_frames, n
         elif os.path.isfile(input_path):
             _, full_file_name = os.path.split(input_path)
-            file_name, extention = os.path.splitext(full_file_name)
-            if extention == '.jpg' or extention == '.png':
+            file_name, extension = os.path.splitext(full_file_name)
+            if extension == '.jpg' or extension == '.png':
                 print("loading the input image")
                 video_frames = []
                 num = int(args.mask_type.split('first')[-1])
@@ -105,7 +105,7 @@ def get_input(args):
                 video_frames = transform_video(video_frames)
                 return video_frames, n
             else:
-                raise TypeError(f'{extention} is not supported !!')
+                raise TypeError(f'{extension} is not supported !!')
         else:
             raise ValueError('Please check your path input!!')
     else:
