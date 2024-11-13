@@ -115,11 +115,11 @@ The generated video will be saved in ```./results/transition```.
 
 ## BibTeX
 ```bibtex
-@article{chen2023seine,
-title={SEINE: Short-to-Long Video Diffusion Model for Generative Transition and Prediction},
-author={Chen, Xinyuan and Wang, Yaohui and Zhang, Lingjun and Zhuang, Shaobin and Ma, Xin and Yu, Jiashuo and Wang, Yali and Lin, Dahua and Qiao, Yu and Liu, Ziwei},
-journal={arXiv preprint arXiv:2310.20700},
-year={2023}
+@inproceedings{chen2023seine,
+  title={Seine: Short-to-long video diffusion model for generative transition and prediction},
+  author={Chen, Xinyuan and Wang, Yaohui and Zhang, Lingjun and Zhuang, Shaobin and Ma, Xin and Yu, Jiashuo and Wang, Yali and Lin, Dahua and Qiao, Yu and Liu, Ziwei},
+  booktitle={ICLR},
+  year={2023}
 }
 ```
 
@@ -127,8 +127,8 @@ year={2023}
 @article{wang2023lavie,
   title={LAVIE: High-Quality Video Generation with Cascaded Latent Diffusion Models},
   author={Wang, Yaohui and Chen, Xinyuan and Ma, Xin and Zhou, Shangchen and Huang, Ziqi and Wang, Yi and Yang, Ceyuan and He, Yinan and Yu, Jiashuo and Yang, Peiqing and others},
-  journal={arXiv preprint arXiv:2309.15103},
-  year={2023}
+  journal={IJCV},
+  year={2024}
 }
 ```
 
