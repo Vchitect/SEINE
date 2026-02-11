@@ -139,9 +139,8 @@ def separation_content_motion(video_clip):
         the second is motions based on base frame
     """
     total_frames = video_clip.shape[1]
-    base_frame = video_clip[0]
-    motions = [video_clip[i] - base_frame for i in range(1, total_frames)]
-    motions = torch.cat(motions, dim=1)
+    base_frame = video_clip[:, 0:1]  # [B, 1, C, H, W]
+    motions = video_clip[:, 1:] - video_clip[:, 0:1]  # [B, F-1, C, H, W]
     return base_frame, motions
 
 def get_experiment_dir(root_dir, args):
